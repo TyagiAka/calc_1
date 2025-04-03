@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Addition {
+public class AddMul {
     public static void main(String[] args) {
         // Create a Scanner object to take input from the user
         Scanner scanner = new Scanner(System.in);
@@ -17,6 +17,12 @@ public class Addition {
         
         // Display the result
         System.out.println("The sum is: " + sum);
+        
+         // Calculate the product
+        double product = num1 * num2;
+        
+        // Display the result
+        System.out.println("The product is: " + product);
         
         // Close the scanner
         scanner.close();
